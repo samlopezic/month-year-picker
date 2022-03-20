@@ -68,6 +68,10 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Text('اللغة العربية'),
               onPressed: () => _onPressed(context: context, locale: 'ar'),
             ),
+            TextButton(
+              child: const Text('SPANISH'),
+              onPressed: () => _onPressed(context: context, locale: 'es'),
+            ),
           ],
         ),
       ),
